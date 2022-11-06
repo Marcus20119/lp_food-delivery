@@ -1,13 +1,18 @@
 import { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import GlobalStyles from './components/Base/Global';
+import Theme from './components/Base/Theme';
 import reportWebVitals from './reportWebVitals';
-import './scss/index.scss';
+// import './scss/index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Fragment>
-    <App />
+    <Theme>
+      <GlobalStyles />
+      <App />
+    </Theme>
   </Fragment>
 );
 
