@@ -1,5 +1,5 @@
 const Frame4 = () => {
-  return <div></div>;
+  return <div>abcxyz</div>;
 };
 
 export default Frame4;
