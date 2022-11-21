@@ -5,7 +5,7 @@ const StyledFrame4  = styled.div`
   display: grid ;
   grid-template-columns: 300px auto;
   margin : 0 220px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   column-gap: 75px;
 `;
 const Frame4 = () => {
