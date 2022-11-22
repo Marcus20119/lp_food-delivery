@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 const StyledFrame5  = styled.div`
-  display: grid ;
   margin : 0 220px;
   margin-bottom:150px;
   p{
@@ -10,6 +9,7 @@ const StyledFrame5  = styled.div`
     line-height: 20px;
     text-align: center;
     letter-spacing: 5px;
+    margin-top: 150px;
   }
   h1{
     color: #292019;
@@ -27,7 +27,6 @@ const StyledFrame5  = styled.div`
       width: 290px;
       height: 290px;
       background-image: linear-gradient(131.83deg, #FFFAFA 0%, #FFF7F7 99.21%);
-      border-radius: 15px;
       border: 2px solid ;
       border-image-slice: 0.5;
       border-image-source: linear-gradient(312.25deg, #FFC4BC 0%, rgba(255, 255, 255, 0) 45.19%);
