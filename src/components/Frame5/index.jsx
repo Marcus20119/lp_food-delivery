@@ -26,7 +26,7 @@ const StyledFrame5  = styled.div`
     .component-achieve{
       width: 290px;
       height: 290px;
-      background: linear-gradient(131.83deg, #FFFAFA 0%, #FFF7F7 99.21%);
+      background-image: linear-gradient(131.83deg, #FFFAFA 0%, #FFF7F7 99.21%);
       border-radius: 15px;
       border: 2px solid ;
       border-image-slice: 0.5;
