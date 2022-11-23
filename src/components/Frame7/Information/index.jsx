@@ -46,7 +46,7 @@ const StyledInformation = styled.div`
     }
     .button-input{
       padding: 10px 12px;
-      background: linear-gradient(180deg, #FF7A44 0%, #FF5816 100%);
+      background: linear-gradient(180deg, #FF7A44 1%, #FF5816 100%);
       border-radius: 10px
     }
   }
